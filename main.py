@@ -1,6 +1,4 @@
-from replainish import check_sum
-from cash_out import del_sum
-from exam import test
+from shell_atm import test, check_sum, del_sum
 
 start_sum = 0
 count_replainishment = 0
