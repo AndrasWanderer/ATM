@@ -4,10 +4,14 @@ from exam import test
 from rich_tax import wealth_tax
 from third_replainish_percent import percent_rep
 from cash_out_percent import withdrawal_percent
-from main import start_sum
 
 
-def balance(operation):
+start_sum = 0
+count_replainishment = 0
+amount = 0
+
+
+def balance():
     atm_balance.delete(0, tk.END)
     atm_balance.insert(0, f"Ваш баланс: {start_sum}")
 
